@@ -1,0 +1,387 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.khaibao {
+    width: 100%;
+    background-color: #182844;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.khaibao {
+    padding: -20px;
+}
+nav ul li{
+    text-align: right;
+}
+nav ul button{
+    margin-left: 160px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    width: 100%;
+}
+.container li {
+    font-size: 14px;
+    color: #0D4C8A;
+    position: relative;
+    top: -10px;
+}
+.tintuc1 hr{
+    width: 100%;
+    height: 2px;
+    background-color:  red;
+    position: relative;
+    bottom:  66px; /* Di chuyển xuống dưới 30px */
+    left: 90px; /* Di chuyển sang phải 50px */
+}
+.tintuc1 h2 {
+    font-size: 50px;
+}
+.tintuc2{
+    width: 100%;
+}
+.tintuc2 ul{
+    list-style-type: none;
+    padding: 0;
+}
+.tintuc2 {
+    display: inline-block;
+    margin-right: 20px; 
+}
+.tintuc2 :nth-child(1){
+    width: 30%;
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    transition: transform 0.3s ease; 
+}
+.tintuc2 :nth-child(1) a{
+   position: relative;
+   top: 5px;
+   color: #0D4C8A;
+   font-size: 15px;
+   left: 60px;
+   text-decoration: none;
+font-weight: bold;
+}
+.tintuc2 :nth-child(1) :hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(2){
+    width: 30%;
+    position: relative;
+    top: -210px;
+    padding-left: 450px;
+ }
+.tintuc2 :nth-child(2) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    top: -210px;
+    border-radius: 5px;
+}
+.tintuc2 :nth-child(2) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 170px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(2) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(3){
+    width: 30%;
+    position: relative;
+    top: -140px;
+display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    margin-left: 20px; 
+ }
+ .tintuc2 :nth-child(3) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 505px;
+    margin-top: -70px;
+}
+.tintuc2 :nth-child(3) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 600px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(3) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(4){
+    width: 30%;
+    position: relative;
+    top: -140px;
+display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    margin-left: 20px; 
+ }
+ .tintuc2 :nth-child(4) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 505px;
+}
+.tintuc2 :nth-child(4) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 600px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(4) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(5){
+    width: 30%;
+    position: relative;
+    top: -498px;
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    margin-left: 520px; 
+ }
+ .tintuc2 :nth-child(5) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 505px;
+}
+.tintuc2 :nth-child(5) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 600px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(5) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(6){
+    width: 30%;
+    position: relative;
+    top: -498px;
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    margin-left: 520px; 
+ }
+ .tintuc2 :nth-child(6) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 505px;
+}
+.tintuc2 :nth-child(6) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 600px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(6) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.tintuc2 :nth-child(7){
+    width: 30%;
+    position: relative;
+    top: -510px;
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    margin-left: 520px; 
+ }
+ .tintuc2 :nth-child(7) img{
+    width: 30%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 505px;
+}
+.tintuc2 :nth-child(7) a{
+    color: #0D4C8A;
+    top: -80px;
+    display: block; 
+    text-align: left;
+    width: 380px; 
+    padding-left: 600px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tintuc2 :nth-child(7) :hover {
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+/*---------------------------------------*/
+.marquee {
+    background-color: red;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    top: -450px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    align-items: center;      /* Căn giữa theo chiều dọc */
+    left: 130px;
+}
+
+.marquee span {
+    position: absolute;
+    width: 100%;
+    animation: marquee 25s linear infinite;
+    display: inline-block;
+}
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Định dạng cho mỗi thông báo */
+.announcement, .event {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề của thông báo */
+.announcement h3, .event h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Mô tả thông báo */
+.announcement p, .event p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Phần ngày tháng */
+.date {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Định dạng thời gian và địa điểm sự kiện */
+.event-time {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Định dạng cho tiêu đề lớn của từng mục */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Tạo khoảng cách giữa các phần */
+.container {
+    padding: 20px;
+}
+
+
+
+
+
+
+/*---------------------------------*/
+.campus-image {
+    width: 100%; /* Đặt hình ảnh khuôn viên chiếm toàn bộ chiều rộng */
+    height: auto; /* Giữ tỉ lệ khung hình */
+    margin-top: 20px; /* Khoảng cách trên hình ảnh */
+}
+footer {
+    background-color: #1ab922ee;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ /* Footer Styles */
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .gdlr-core-divider-line {
+    margin: 20px 0;
+    border-color: #3db166;
+    border-width: 2px;
+  }
